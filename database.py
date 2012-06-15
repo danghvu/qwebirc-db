@@ -1,6 +1,7 @@
 import sqlite3
 
 DBNAME = "tempdb.db"
+IGNORE_LIST = ["PONG"]
 
 class DB:
     def __init__(self,dbname):
@@ -8,6 +9,7 @@ class DB:
         self.cursor = self.conn.cursor()
         self.cursor.execute("CREATE TABLE IF NOT EXISTS msg ( \
                              id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL , \
+                             user TEXT, \
                              command TEXT,  \
                              target TEXT, \
                              message TEXT, \
@@ -21,9 +23,11 @@ class DB:
     def read(self):
         return self.cursor.execute("SELECT * FROM msg ORDER BY time ASC").fetchall()
 
-    def write(self, data):
+    def write(self, user, data):
         data = data.split(' ')
-        self.cursor.execute("INSERT INTO msg ( command , target, message ) VALUES (?, ?, ?)", (data[0], data[1], ''.join(data[2:])))
+        if data[0] in IGNORE_LIST: return
+
+        self.cursor.execute("INSERT INTO msg ( user, command , target, message ) VALUES (?, ?, ?, ?)", (user, data[0], data[1], ' '.join(data[2:])))
         self.conn.commit()
 
 client = DB(DBNAME)

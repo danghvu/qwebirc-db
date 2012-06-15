@@ -308,11 +308,7 @@ class AJAXEngine(resource.Resource):
 
   def render_GET(self, request):
     a = database.client.read()
-    rs = "<pre>"
-    for i in a:
-        rs += str(i) + "\n"
-    rs += "</pre>"
-    return rs
+    return json.dumps(a)
     
   COMMANDS = dict(p=push, n=newConnection, s=subscribe)
   

@@ -71,10 +71,11 @@ class QWebIRCClient(basic.LineReceiver):
     
   def write(self, data):
     try:
-        database.client.write(data)
         command = data.split(' ')[0]
-        if command == "JOIN":
-            current = database.client.read()
+        if command == "NICK":
+            self.nick = data.split(' ')[1]
+
+        database.client.write(self.nick, data)
 
     except Exception as e:
         print "Err! while write to db" + str(e)
