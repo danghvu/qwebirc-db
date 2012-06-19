@@ -23,6 +23,12 @@ class DB:
     def read(self):
         return self.cursor.execute("SELECT * FROM msg ORDER BY time ASC").fetchall()
 
+    def readMsg(self, channel):
+        channel = channel.strip()
+        queryTemp = "SELECT * FROM msg WHERE command = 'PRIVMSG' AND target = '{0}' ORDER BY time ASC"
+        query = queryTemp.format(channel)
+        return self.cursor.execute(query).fetchall()
+
     def write(self, user, data):
         data = data.split(' ')
         if data[0] in IGNORE_LIST: return

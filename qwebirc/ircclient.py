@@ -36,8 +36,51 @@ class QWebIRCClient(basic.LineReceiver):
   delimiter = "\n"
   def __init__(self, *args, **kwargs):
     self.__nickname = "(unregistered)"
+
+  """
+  Return Channel Name if IRCClient start joining a new Channel
+  """
+  def onNewChannel(self, dataReceived):
+    firstLine = dataReceived.split('\n')[0]
+    if "JOIN" in firstLine:
+      return firstLine.split(' ')[-1]
+    return None
+
+  """
+  Load history on channel
+  Format base on data received format
+  Ex: :khuevu!~khuevu@cm183.sigma81.maxonline.com.sg PRIVMSG #testingtestingwebirc :abcdefg
+  """
+  def loadHistory(self, channelName):
+    all_records = database.client.readMsg(channelName)
+    history_data = ""
     
+    for record in all_records:
+      line = ""
+      user = record[1]
+      if not user:
+        continue
+      if user[0] != ':':
+        user = ':' + user
+      line = line + user + " "
+      command = record[2]
+      line = line + command + " "
+      line = line + channelName + " "
+      message = record[4]
+      if not message:
+      	continue
+      if message[0] != ':':
+        message = ':' + message
+      line = line + message + "\n"
+      history_data = history_data + line
+    return history_data
+
+
   def dataReceived(self, data):
+  	channel = self.onNewChannel(data)
+  	if channel: 
+      history = self.loadHistory(channel)
+      data = data + history
     basic.LineReceiver.dataReceived(self, data.replace("\r", ""))
 
   def lineReceived(self, line):
