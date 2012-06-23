@@ -59,7 +59,6 @@ qwebirc.irc.IRCConnection = new Class({
       url: qwebirc.global.dynamicBaseURL + "e/" + url + "?r=" + this.cacheAvoidance + "&t=" + this.counter++,
       async: asynchronous
     });
-    
     /* try to minimise the amount of headers */
     r.headers = new Hash;
     r.addEvent("request", function() {
@@ -242,7 +241,22 @@ qwebirc.irc.IRCConnection = new Class({
     this.__scheduleTimeout();
     r.send("s=" + this.sessionid);
   },
+  history: function(channel) {
+    var r = this.newRequest("h", true); 
+    var onComplete = function(o) {
+        if (o) {
+            this.__processData(o); 
+        } 
+        return;
+    }
+    r.addEvent("complete", onComplete.bind(this));
+    var postdata = "s=" + this.sessionid;
+    postdata += "&channel=" + encodeURIComponent(channel);
+    r.send(postdata);
+  
+  },
   connect: function() {
+  
     this.cacheAvoidance = qwebirc.util.randHexString(16);
     
     var r = this.newRequest("n");
@@ -260,6 +274,7 @@ qwebirc.irc.IRCConnection = new Class({
       this.sessionid = o[1];
       
       this.recv();    
+
     }.bind(this));
     
     var postdata = "nick=" + encodeURIComponent(this.initialNickname);

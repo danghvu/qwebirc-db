@@ -41,6 +41,7 @@ qwebirc.irc.BaseIRCClient = new Class({
     this.send = this.connection.send.bind(this.connection);
     this.connect = this.connection.connect.bind(this.connection);
     this.disconnect = this.connection.disconnect.bind(this.connection);
+    this.history = this.connection.history.bind(this.connection);  
 
     this.setupGenericErrors();
   },
@@ -196,9 +197,12 @@ qwebirc.irc.BaseIRCClient = new Class({
         
     if(nick == this.nickname)
       this.__nowOnChannel(channel);
-
-    this.userJoined(user, channel);
+    console.log(this.username)
     
+    this.userJoined(user, channel);
+    //load history if the user join is the web client user
+    if (nick == this.nickname)
+      this.history(channel) 
     return true;
   },
   irc_TOPIC: function(prefix, params) {

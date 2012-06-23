@@ -175,7 +175,6 @@ class AJAXEngine(resource.Resource):
     self.__connect_hit = HitCounter()
     self.__total_hit = HitCounter()
     
-  @jsondump
   def render_POST(self, request):
     path = request.path[len(self.prefix):]
     if path[0] == "/":
@@ -185,6 +184,7 @@ class AJAXEngine(resource.Resource):
         
     raise PassthruException, http_error.NoResource().render(request)
 
+  @jsondump
   def newConnection(self, request):
     ticket = login_optional(request)
     
@@ -261,11 +261,26 @@ class AJAXEngine(resource.Resource):
       raise AJAXException, bad_session_message
     return session
     
+  @jsondump
   def subscribe(self, request):
     request.channel.cancelTimeout()
     self.getSession(request).subscribe(SingleUseChannel(request), request.notifyFinish())
     return NOT_DONE_YET
 
+  def history(self, request):
+    session = self.getSession(request)
+    channel = request.args.get("channel")
+    print channel
+    records = database.client.readMsg(channel[0])
+    messages = []
+    for r in records:
+        print r
+        msg = ["c"] + [r[0]] + [r[1]] 
+        msg.append([r[2], r[3]])
+        messages.append(msg)
+    return json.dumps(messages)
+
+  @jsondump
   def push(self, request):
     command = request.args.get("c")
     if command is None:
@@ -273,7 +288,7 @@ class AJAXEngine(resource.Resource):
     self.__total_hit()
     
     decoded = ircclient.irc_decode(command[0])
-    
+    print decoded 
     session = self.getSession(request)
 
     if len(decoded) > config.MAXLINELEN:
@@ -310,5 +325,5 @@ class AJAXEngine(resource.Resource):
     a = database.client.read()
     return json.dumps(a)
     
-  COMMANDS = dict(p=push, n=newConnection, s=subscribe)
+  COMMANDS = dict(p=push, n=newConnection, s=subscribe, h=history)
   
