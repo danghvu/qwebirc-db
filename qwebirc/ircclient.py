@@ -77,8 +77,8 @@ class QWebIRCClient(basic.LineReceiver):
 
 
   def dataReceived(self, data):
-  	channel = self.onNewChannel(data)
-  	if channel: 
+    channel = self.onNewChannel(data)
+    if channel:
       history = self.loadHistory(channel)
       data = data + history
     basic.LineReceiver.dataReceived(self, data.replace("\r", ""))
