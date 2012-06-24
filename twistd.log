@@ -1216,3 +1216,385 @@
 2012-06-15 17:08:11+0200 [-] 134.93.143.194 - - [15/Jun/2012:15:08:11 +0000] "POST /e/s?r=345674d7815bbc3bace6ee675dad4747&t=97 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
 2012-06-15 17:08:36+0200 [-] 134.93.143.194 - - [15/Jun/2012:15:08:36 +0000] "POST /e/s?r=345674d7815bbc3bace6ee675dad4747&t=98 HTTP/1.1" 200 44 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
 2012-06-15 17:08:36+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [15/Jun/2012:15:08:36 +0000] "POST /e/p?r=345674d7815bbc3bace6ee675dad4747&t=99 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:22:55+0200 [-] Log opened.
+2012-06-24 11:22:55+0200 [-] twistd 11.1.0 (/usr/bin/python 2.7.3) starting up.
+2012-06-24 11:22:55+0200 [-] reactor class: twisted.internet.pollreactor.PollReactor.
+2012-06-24 11:22:55+0200 [-] RootSite starting on 9090
+2012-06-24 11:22:55+0200 [-] Starting factory <qwebirc.root.RootSite instance at 0x11a0098>
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:04 +0000] "GET / HTTP/1.1" 200 752 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:04 +0000] "GET /css/qui-522b13d1031a435a030f.css HTTP/1.1" 200 1063 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:04 +0000] "GET /js/qui-522b13d1031a435a030f.js HTTP/1.1" 200 58658 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:04 +0000] "GET /css/qui-522b13d1031a435a030f.mcss HTTP/1.1" 200 1527 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:04 +0000] "GET /js/soundmanager2-nodebug-jsmin.js HTTP/1.1" 200 7421 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:04 +0000] "GET /images/icon.png HTTP/1.1" 200 3566 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:05+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:05 +0000] "GET /sound/soundmanager2.swf HTTP/1.1" 200 2459 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] /etc/resolv.conf changed, reparsing
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] Resolver added ('134.93.143.1', 53) to server list
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] Resolver added ('134.93.143.51', 53) to server list
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] Resolver added ('134.93.8.159', 53) to server list
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] DNSDatagramProtocol starting on 62472
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x19f30d0>
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:08 +0000] "POST /e/n?r=914b5fb9394832d79bbfbe4b594f4e26&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:09+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 51065
+2012-06-24 11:23:09+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x19db890>
+2012-06-24 11:23:09+0200 [-] (UDP Port 62472 Closed)
+2012-06-24 11:23:09+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x19f30d0>
+2012-06-24 11:23:09+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x1ab6b00>
+2012-06-24 11:23:09+0200 [-] (UDP Port 51065 Closed)
+2012-06-24 11:23:09+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x19db890>
+2012-06-24 11:23:09+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:23:08 +0000] "POST /e/s?r=914b5fb9394832d79bbfbe4b594f4e26&t=1 HTTP/1.1" 200 7598 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] MODE w00d +x
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:08 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=2 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,1,134.93.143.194] JOIN #babay 
+2012-06-24 11:23:09+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:08 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:15+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:23:15 +0000] "POST /e/s?r=914b5fb9394832d79bbfbe4b594f4e26&t=4 HTTP/1.1" 200 67 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:16+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:23:15 +0000] "POST /e/s?r=914b5fb9394832d79bbfbe4b594f4e26&t=5 HTTP/1.1" 200 273 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:16+0200 [TimeoutHTTPChannel,1,134.93.143.194] ['#babay']
+2012-06-24 11:23:16+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:15 +0000] "POST /e/h?r=914b5fb9394832d79bbfbe4b594f4e26&t=6 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:46+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:23:45 +0000] "POST /e/s?r=914b5fb9394832d79bbfbe4b594f4e26&t=7 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:48+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:23:48+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:48 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=9 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:49+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:23:49+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:48 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=10 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:50+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:23:50+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:49 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=11 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:50+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:23:50+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:50 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=12 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:53+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :1
+2012-06-24 11:23:53+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:52 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=13 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:53+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :2
+2012-06-24 11:23:53+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:52 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=14 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:53+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :3
+2012-06-24 11:23:53+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:53 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=15 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:54+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :4
+2012-06-24 11:23:54+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:53 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=16 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:23:54+0200 [TimeoutHTTPChannel,1,134.93.143.194] PRIVMSG #babay :5
+2012-06-24 11:23:54+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:23:53 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=17 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:02+0200 [TimeoutHTTPChannel,1,134.93.143.194] QUIT :Page closed
+2012-06-24 11:24:02+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:01 +0000] "POST /e/p?r=914b5fb9394832d79bbfbe4b594f4e26&t=18 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:02+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:24:01 +0000] "POST /e/s?r=914b5fb9394832d79bbfbe4b594f4e26&t=8 HTTP/1.1" 200 79 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:02+0200 [QWebIRCClient,client] Stopping factory <qwebirc.ircclient.QWebIRCFactory instance at 0x1ab6b00>
+2012-06-24 11:24:03+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:02 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:03+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:02 +0000] "GET /css/qui-522b13d1031a435a030f.css HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:03+0200 [TimeoutHTTPChannel,4,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:02 +0000] "GET /js/qui-522b13d1031a435a030f.js HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,1,134.93.143.194] DNSDatagramProtocol starting on 17545
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,1,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x1abe610>
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:05 +0000] "POST /e/n?r=d592fc1df1f03dee7581a0f91f502a2b&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:06+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 60731
+2012-06-24 11:24:06+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x19f3a10>
+2012-06-24 11:24:06+0200 [-] (UDP Port 17545 Closed)
+2012-06-24 11:24:06+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x1abe610>
+2012-06-24 11:24:06+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x1ac4ab8>
+2012-06-24 11:24:06+0200 [-] (UDP Port 60731 Closed)
+2012-06-24 11:24:06+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x19f3a10>
+2012-06-24 11:24:06+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:24:05 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=1 HTTP/1.1" 200 7598 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,1,134.93.143.194] MODE w00d +x
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:05 +0000] "POST /e/p?r=d592fc1df1f03dee7581a0f91f502a2b&t=2 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,4,134.93.143.194] JOIN #babay 
+2012-06-24 11:24:06+0200 [TimeoutHTTPChannel,4,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:05 +0000] "POST /e/p?r=d592fc1df1f03dee7581a0f91f502a2b&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:12+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:24:12 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=4 HTTP/1.1" 200 67 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:13+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:24:12 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=5 HTTP/1.1" 200 273 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:13+0200 [TimeoutHTTPChannel,4,134.93.143.194] ['#babay']
+2012-06-24 11:24:13+0200 [TimeoutHTTPChannel,4,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:24:12 +0000] "POST /e/h?r=d592fc1df1f03dee7581a0f91f502a2b&t=6 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:24:43+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:24:42 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=7 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:25:13+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:25:12 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=8 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:25:43+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:25:42 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=9 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:26:13+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:26:12 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=10 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:26:32+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:26:32 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=11 HTTP/1.1" 200 44 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:26:32+0200 [TimeoutHTTPChannel,1,134.93.143.194] PONG :kornbluth.freenode.net
+2012-06-24 11:26:32+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:26:32 +0000] "POST /e/p?r=d592fc1df1f03dee7581a0f91f502a2b&t=12 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:27:02+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:27:02 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=13 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:27:32+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:27:32 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=14 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:28:02+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:28:02 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=15 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:28:32+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:28:32 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=16 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:28:57+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:28:57 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=17 HTTP/1.1" 200 44 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:28:57+0200 [TimeoutHTTPChannel,4,134.93.143.194] PONG :kornbluth.freenode.net
+2012-06-24 11:28:57+0200 [TimeoutHTTPChannel,4,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:28:57 +0000] "POST /e/p?r=d592fc1df1f03dee7581a0f91f502a2b&t=18 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:29:27+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:29:27 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=19 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:29:57+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:29:57 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=20 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:30:27+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:30:27 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=21 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:30:57+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:30:57 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=22 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:31:22+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:31:22 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=23 HTTP/1.1" 200 44 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:31:22+0200 [TimeoutHTTPChannel,1,134.93.143.194] PONG :kornbluth.freenode.net
+2012-06-24 11:31:22+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:31:22 +0000] "POST /e/p?r=d592fc1df1f03dee7581a0f91f502a2b&t=24 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:31:52+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:31:52 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=25 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:32:22+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:32:22 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=26 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:32:52+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:32:52 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=27 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:33:22+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:33:22 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=28 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:33:47+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:33:47 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=29 HTTP/1.1" 200 44 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:33:47+0200 [TimeoutHTTPChannel,4,134.93.143.194] PONG :kornbluth.freenode.net
+2012-06-24 11:33:47+0200 [TimeoutHTTPChannel,4,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:33:47 +0000] "POST /e/p?r=d592fc1df1f03dee7581a0f91f502a2b&t=30 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:17+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:34:17 +0000] "POST /e/s?r=d592fc1df1f03dee7581a0f91f502a2b&t=31 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:40+0200 [-] Log opened.
+2012-06-24 11:34:40+0200 [-] twistd 11.1.0 (/usr/bin/python 2.7.3) starting up.
+2012-06-24 11:34:40+0200 [-] reactor class: twisted.internet.pollreactor.PollReactor.
+2012-06-24 11:34:40+0200 [-] RootSite starting on 9090
+2012-06-24 11:34:40+0200 [-] Starting factory <qwebirc.root.RootSite instance at 0x2c34a28>
+2012-06-24 11:34:45+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:34:44 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:45+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:34:44 +0000] "GET /css/qui-522b13d1031a435a030f.css HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:45+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:34:44 +0000] "GET /js/qui-522b13d1031a435a030f.js HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] /etc/resolv.conf changed, reparsing
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] Resolver added ('134.93.143.1', 53) to server list
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] Resolver added ('134.93.143.51', 53) to server list
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] Resolver added ('134.93.8.159', 53) to server list
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] DNSDatagramProtocol starting on 62403
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35be2d0>
+2012-06-24 11:34:49+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:34:48 +0000] "POST /e/n?r=7ce862b5f94c9a9e1eb1127f6ff9ee28&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:49+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 12868
+2012-06-24 11:34:49+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x3518990>
+2012-06-24 11:34:49+0200 [-] (UDP Port 62403 Closed)
+2012-06-24 11:34:49+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35be2d0>
+2012-06-24 11:34:49+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x35165a8>
+2012-06-24 11:34:49+0200 [-] (UDP Port 12868 Closed)
+2012-06-24 11:34:49+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x3518990>
+2012-06-24 11:34:49+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:34:48 +0000] "POST /e/s?r=7ce862b5f94c9a9e1eb1127f6ff9ee28&t=1 HTTP/1.1" 200 136 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:49+0200 [QWebIRCClient,client] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/log.py", line 84, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/log.py", line 69, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 586, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 199, in doRead
+	    rval = self.protocol.dataReceived(data)
+	  File "/home/danghvu/workspace/qwebirc-db/qwebirc/ircclient.py", line 41, in dataReceived
+	    basic.LineReceiver.dataReceived(self, data.replace("\r", ""))
+	  File "/usr/lib/python2.7/dist-packages/twisted/protocols/basic.py", line 564, in dataReceived
+	    why = self.lineReceived(line)
+	  File "/home/danghvu/workspace/qwebirc-db/qwebirc/ircclient.py", line 54, in lineReceived
+	    if self.__botIsEnable:
+	exceptions.AttributeError: QWebIRCClient instance has no attribute '_QWebIRCClient__botIsEnable'
+	
+2012-06-24 11:34:49+0200 [QWebIRCClient,client] Stopping factory <qwebirc.ircclient.QWebIRCFactory instance at 0x35165a8>
+2012-06-24 11:34:49+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:34:48 +0000] "POST /e/s?r=7ce862b5f94c9a9e1eb1127f6ff9ee28&t=2 HTTP/1.1" 200 141 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:34:57+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:34:56 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:35:00+0200 [TimeoutHTTPChannel,6,134.93.143.194] DNSDatagramProtocol starting on 34365
+2012-06-24 11:35:00+0200 [TimeoutHTTPChannel,6,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35f8990>
+2012-06-24 11:35:00+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:35:00 +0000] "POST /e/n?r=eb2e0635ea1e512abdda3ec3e0afc129&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:35:00+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 3325
+2012-06-24 11:35:00+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35bef10>
+2012-06-24 11:35:00+0200 [-] (UDP Port 34365 Closed)
+2012-06-24 11:35:00+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35f8990>
+2012-06-24 11:35:00+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x3602758>
+2012-06-24 11:35:00+0200 [-] (UDP Port 3325 Closed)
+2012-06-24 11:35:00+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35bef10>
+2012-06-24 11:35:01+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:35:00 +0000] "POST /e/s?r=eb2e0635ea1e512abdda3ec3e0afc129&t=1 HTTP/1.1" 200 136 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:35:01+0200 [QWebIRCClient,client] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/log.py", line 84, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/log.py", line 69, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 586, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 199, in doRead
+	    rval = self.protocol.dataReceived(data)
+	  File "/home/danghvu/workspace/qwebirc-db/qwebirc/ircclient.py", line 41, in dataReceived
+	    basic.LineReceiver.dataReceived(self, data.replace("\r", ""))
+	  File "/usr/lib/python2.7/dist-packages/twisted/protocols/basic.py", line 564, in dataReceived
+	    why = self.lineReceived(line)
+	  File "/home/danghvu/workspace/qwebirc-db/qwebirc/ircclient.py", line 54, in lineReceived
+	    if self.__botIsEnable:
+	exceptions.AttributeError: QWebIRCClient instance has no attribute '_QWebIRCClient__botIsEnable'
+	
+2012-06-24 11:35:01+0200 [QWebIRCClient,client] Stopping factory <qwebirc.ircclient.QWebIRCFactory instance at 0x3602758>
+2012-06-24 11:35:01+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:35:00 +0000] "POST /e/s?r=eb2e0635ea1e512abdda3ec3e0afc129&t=2 HTTP/1.1" 200 141 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:36+0200 [-] Log opened.
+2012-06-24 11:36:36+0200 [-] twistd 11.1.0 (/usr/bin/python 2.7.3) starting up.
+2012-06-24 11:36:36+0200 [-] reactor class: twisted.internet.pollreactor.PollReactor.
+2012-06-24 11:36:36+0200 [-] RootSite starting on 9090
+2012-06-24 11:36:36+0200 [-] Starting factory <qwebirc.root.RootSite instance at 0x2768a28>
+2012-06-24 11:36:43+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:42 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:43+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:42 +0000] "GET /css/qui-522b13d1031a435a030f.css HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:43+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:42 +0000] "GET /js/qui-522b13d1031a435a030f.js HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] /etc/resolv.conf changed, reparsing
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] Resolver added ('134.93.143.1', 53) to server list
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] Resolver added ('134.93.143.51', 53) to server list
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] Resolver added ('134.93.8.159', 53) to server list
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] DNSDatagramProtocol starting on 8717
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x30f3410>
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:45 +0000] "POST /e/n?r=6b48142a943fe2fe0697a458b0f140f4&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:46+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 24711
+2012-06-24 11:36:46+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x304df10>
+2012-06-24 11:36:46+0200 [-] (UDP Port 8717 Closed)
+2012-06-24 11:36:46+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x30f3410>
+2012-06-24 11:36:46+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x3047368>
+2012-06-24 11:36:46+0200 [-] (UDP Port 24711 Closed)
+2012-06-24 11:36:46+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x304df10>
+2012-06-24 11:36:46+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:36:45 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=1 HTTP/1.1" 200 5355 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] MODE w00d +x
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:45 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=2 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,0,134.93.143.194] JOIN #babay 
+2012-06-24 11:36:46+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:45 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:46+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:36:45 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=4 HTTP/1.1" 200 2244 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:52+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:36:51 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=5 HTTP/1.1" 200 67 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:53+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:36:52 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=6 HTTP/1.1" 200 273 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:53+0200 [TimeoutHTTPChannel,0,134.93.143.194] ['#babay']
+2012-06-24 11:36:53+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:52 +0000] "POST /e/h?r=6b48142a943fe2fe0697a458b0f140f4&t=7 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:57+0200 [TimeoutHTTPChannel,0,134.93.143.194] ENBOD
+2012-06-24 11:36:57+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:36:56 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=9 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:36:57+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:36:56 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=8 HTTP/1.1" 200 73 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:01+0200 [TimeoutHTTPChannel,0,134.93.143.194] ENBOT
+2012-06-24 11:37:01+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:00 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=11 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:02+0200 [TimeoutHTTPChannel,0,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:37:02+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:02 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=12 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:03+0200 [TimeoutHTTPChannel,0,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:37:03+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:02 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=13 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:04+0200 [TimeoutHTTPChannel,0,134.93.143.194] PRIVMSG #babay :hello
+2012-06-24 11:37:04+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:03 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=14 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:05+0200 [TimeoutHTTPChannel,0,134.93.143.194] PRIVMSG #babay :babay
+2012-06-24 11:37:05+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:04 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=15 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:07+0200 [TimeoutHTTPChannel,0,134.93.143.194] PRIVMSG #babay :toi la babay
+2012-06-24 11:37:07+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:07 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=16 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:12+0200 [TimeoutHTTPChannel,0,134.93.143.194] QUIT :
+2012-06-24 11:37:12+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:11 +0000] "POST /e/p?r=6b48142a943fe2fe0697a458b0f140f4&t=17 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:12+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:11 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=10 HTTP/1.1" 200 79 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:12+0200 [QWebIRCClient,client] Stopping factory <qwebirc.ircclient.QWebIRCFactory instance at 0x3047368>
+2012-06-24 11:37:13+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:12 +0000] "POST /e/s?r=6b48142a943fe2fe0697a458b0f140f4&t=18 HTTP/1.1" 200 131 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:14+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,1,134.93.143.194] DNSDatagramProtocol starting on 62726
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,1,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x31054d0>
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:17 +0000] "POST /e/n?r=008cdd0a054f0c498aa64970a8586a1a&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:18+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 13634
+2012-06-24 11:37:18+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x30f3f50>
+2012-06-24 11:37:18+0200 [-] (UDP Port 62726 Closed)
+2012-06-24 11:37:18+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x31054d0>
+2012-06-24 11:37:18+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x30fc290>
+2012-06-24 11:37:18+0200 [-] (UDP Port 13634 Closed)
+2012-06-24 11:37:18+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x30f3f50>
+2012-06-24 11:37:18+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:17 +0000] "POST /e/s?r=008cdd0a054f0c498aa64970a8586a1a&t=1 HTTP/1.1" 200 136 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:18+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:17 +0000] "POST /e/s?r=008cdd0a054f0c498aa64970a8586a1a&t=2 HTTP/1.1" 200 7463 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,1,134.93.143.194] MODE w00d +x
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,1,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:17 +0000] "POST /e/p?r=008cdd0a054f0c498aa64970a8586a1a&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,0,134.93.143.194] JOIN #babay 
+2012-06-24 11:37:18+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:17 +0000] "POST /e/p?r=008cdd0a054f0c498aa64970a8586a1a&t=4 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:24+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:23 +0000] "POST /e/s?r=008cdd0a054f0c498aa64970a8586a1a&t=5 HTTP/1.1" 200 67 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:25+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:24 +0000] "POST /e/s?r=008cdd0a054f0c498aa64970a8586a1a&t=6 HTTP/1.1" 200 273 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:25+0200 [TimeoutHTTPChannel,0,134.93.143.194] ['#babay']
+2012-06-24 11:37:25+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:24 +0000] "POST /e/h?r=008cdd0a054f0c498aa64970a8586a1a&t=7 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:32+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:37:31 +0000] "GET /e/h HTTP/1.1" 200 2088 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:37:55+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:37:54 +0000] "POST /e/s?r=008cdd0a054f0c498aa64970a8586a1a&t=8 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:15+0200 [-] Log opened.
+2012-06-24 11:42:15+0200 [-] twistd 11.1.0 (/usr/bin/python 2.7.3) starting up.
+2012-06-24 11:42:15+0200 [-] reactor class: twisted.internet.pollreactor.PollReactor.
+2012-06-24 11:42:15+0200 [-] RootSite starting on 9090
+2012-06-24 11:42:15+0200 [-] Starting factory <qwebirc.root.RootSite instance at 0x169da28>
+2012-06-24 11:42:22+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:22+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:22 +0000] "GET /css/qui-522b13d1031a435a030f.css HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:22+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:22 +0000] "GET /js/qui-522b13d1031a435a030f.js HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] /etc/resolv.conf changed, reparsing
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] Resolver added ('134.93.143.1', 53) to server list
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] Resolver added ('134.93.143.51', 53) to server list
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] Resolver added ('134.93.8.159', 53) to server list
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] DNSDatagramProtocol starting on 27715
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x20282d0>
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:25 +0000] "POST /e/n?r=ed9fce1be53293351c167fcc775cd2b5&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:25+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 29481
+2012-06-24 11:42:25+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x1f81990>
+2012-06-24 11:42:25+0200 [-] (UDP Port 27715 Closed)
+2012-06-24 11:42:25+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x20282d0>
+2012-06-24 11:42:25+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x1f805a8>
+2012-06-24 11:42:25+0200 [-] (UDP Port 29481 Closed)
+2012-06-24 11:42:25+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x1f81990>
+2012-06-24 11:42:25+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:42:25 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=1 HTTP/1.1" 200 136 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:25+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:42:25 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=2 HTTP/1.1" 200 7463 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] MODE w00d +x
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:25 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,7,134.93.143.194] JOIN #babay 
+2012-06-24 11:42:25+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:25 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=4 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:31+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:42:31 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=5 HTTP/1.1" 200 67 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:32+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:42:32 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=6 HTTP/1.1" 200 486 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:32+0200 [TimeoutHTTPChannel,7,134.93.143.194] ['#babay']
+2012-06-24 11:42:32+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:32 +0000] "POST /e/h?r=ed9fce1be53293351c167fcc775cd2b5&t=7 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:46+0200 [TimeoutHTTPChannel,7,134.93.143.194] ENBOT
+2012-06-24 11:42:46+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:46 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=9 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:48+0200 [TimeoutHTTPChannel,7,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:42:48+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:48 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=10 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:48+0200 [TimeoutHTTPChannel,7,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:42:49+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:48 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=11 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:49+0200 [TimeoutHTTPChannel,7,134.93.143.194] PRIVMSG #babay :test
+2012-06-24 11:42:49+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:49 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=12 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:52+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:52 +0000] "GET /e/h HTTP/1.1" 200 2271 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:42:52+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:42:52 +0000] "GET /favicon.ico HTTP/1.1" 200 644 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:43:02+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:43:02 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=8 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:43:32+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:43:32 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=13 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:43:56+0200 [TimeoutHTTPChannel,7,134.93.143.194] QUIT :Page closed
+2012-06-24 11:43:56+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:43:56 +0000] "POST /e/p?r=ed9fce1be53293351c167fcc775cd2b5&t=15 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:43:57+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:43:56 +0000] "POST /e/s?r=ed9fce1be53293351c167fcc775cd2b5&t=14 HTTP/1.1" 200 161 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:43:57+0200 [QWebIRCClient,client] Stopping factory <qwebirc.ircclient.QWebIRCFactory instance at 0x1f805a8>
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,7,134.93.143.194] DNSDatagramProtocol starting on 47142
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,7,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x2033ad0>
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:44:06 +0000] "POST /e/n?r=60d7999d4dc6aaecd59beb2c12b19ade&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:06+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 12609
+2012-06-24 11:44:06+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x2033cd0>
+2012-06-24 11:44:06+0200 [-] (UDP Port 47142 Closed)
+2012-06-24 11:44:06+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x2033ad0>
+2012-06-24 11:44:06+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x203d248>
+2012-06-24 11:44:06+0200 [-] (UDP Port 12609 Closed)
+2012-06-24 11:44:06+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x2033cd0>
+2012-06-24 11:44:06+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:44:06 +0000] "POST /e/s?r=60d7999d4dc6aaecd59beb2c12b19ade&t=1 HTTP/1.1" 200 7598 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,7,134.93.143.194] MODE w00d +x
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:44:06 +0000] "POST /e/p?r=60d7999d4dc6aaecd59beb2c12b19ade&t=2 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,12,134.93.143.194] JOIN #babay 
+2012-06-24 11:44:06+0200 [TimeoutHTTPChannel,12,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:44:06 +0000] "POST /e/p?r=60d7999d4dc6aaecd59beb2c12b19ade&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:12+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:44:12 +0000] "POST /e/s?r=60d7999d4dc6aaecd59beb2c12b19ade&t=4 HTTP/1.1" 200 67 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:13+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:44:13 +0000] "POST /e/s?r=60d7999d4dc6aaecd59beb2c12b19ade&t=5 HTTP/1.1" 200 273 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:13+0200 [TimeoutHTTPChannel,12,134.93.143.194] ['#babay']
+2012-06-24 11:44:13+0200 [TimeoutHTTPChannel,12,134.93.143.194] (u'PRIVMSG', u'w00d', u'#babay', u':test')
+2012-06-24 11:44:13+0200 [TimeoutHTTPChannel,12,134.93.143.194] (u'PRIVMSG', u'w00d', u'#babay', u':test')
+2012-06-24 11:44:13+0200 [TimeoutHTTPChannel,12,134.93.143.194] (u'PRIVMSG', u'w00d', u'#babay', u':test')
+2012-06-24 11:44:13+0200 [TimeoutHTTPChannel,12,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:44:13 +0000] "POST /e/h?r=60d7999d4dc6aaecd59beb2c12b19ade&t=6 HTTP/1.1" 200 127 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:44:43+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:44:43 +0000] "POST /e/s?r=60d7999d4dc6aaecd59beb2c12b19ade&t=7 HTTP/1.1" 200 2 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:27+0200 [-] Log opened.
+2012-06-24 11:46:27+0200 [-] twistd 11.1.0 (/usr/bin/python 2.7.3) starting up.
+2012-06-24 11:46:27+0200 [-] reactor class: twisted.internet.pollreactor.PollReactor.
+2012-06-24 11:46:27+0200 [-] RootSite starting on 9090
+2012-06-24 11:46:27+0200 [-] Starting factory <qwebirc.root.RootSite instance at 0x2cdea28>
+2012-06-24 11:46:34+0200 [TimeoutHTTPChannel,0,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:33 +0000] "GET /e/h HTTP/1.1" 200 2493 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:40+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:39 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:40+0200 [TimeoutHTTPChannel,6,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:39 +0000] "GET /css/qui-522b13d1031a435a030f.css HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:40+0200 [TimeoutHTTPChannel,7,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:39 +0000] "GET /js/qui-522b13d1031a435a030f.js HTTP/1.1" 304 - "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] /etc/resolv.conf changed, reparsing
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] Resolver added ('134.93.143.1', 53) to server list
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] Resolver added ('134.93.143.51', 53) to server list
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] Resolver added ('134.93.8.159', 53) to server list
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] DNSDatagramProtocol starting on 41797
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x3670310>
+2012-06-24 11:46:46+0200 [TimeoutHTTPChannel,8,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:45 +0000] "POST /e/n?r=9a55d3844f0b7e820811984c6a2abc9a&t=0 HTTP/1.1" 200 41 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:46+0200 [DNSDatagramProtocol (UDP)] DNSDatagramProtocol starting on 19479
+2012-06-24 11:46:46+0200 [DNSDatagramProtocol (UDP)] Starting protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35c2e10>
+2012-06-24 11:46:46+0200 [-] (UDP Port 41797 Closed)
+2012-06-24 11:46:46+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x3670310>
+2012-06-24 11:46:46+0200 [DNSDatagramProtocol (UDP)] Starting factory <qwebirc.ircclient.QWebIRCFactory instance at 0x35c1680>
+2012-06-24 11:46:46+0200 [-] (UDP Port 19479 Closed)
+2012-06-24 11:46:46+0200 [-] Stopping protocol <twisted.names.dns.DNSDatagramProtocol object at 0x35c2e10>
+2012-06-24 11:46:46+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:46:45 +0000] "POST /e/s?r=9a55d3844f0b7e820811984c6a2abc9a&t=1 HTTP/1.1" 200 136 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:47+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:46:46 +0000] "POST /e/s?r=9a55d3844f0b7e820811984c6a2abc9a&t=2 HTTP/1.1" 200 7574 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:47+0200 [TimeoutHTTPChannel,8,134.93.143.194] MODE aaa +x
+2012-06-24 11:46:47+0200 [TimeoutHTTPChannel,8,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:46 +0000] "POST /e/p?r=9a55d3844f0b7e820811984c6a2abc9a&t=3 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:47+0200 [TimeoutHTTPChannel,9,134.93.143.194] JOIN #babay 
+2012-06-24 11:46:47+0200 [TimeoutHTTPChannel,9,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:46 +0000] "POST /e/p?r=9a55d3844f0b7e820811984c6a2abc9a&t=4 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:52+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:46:51 +0000] "POST /e/s?r=9a55d3844f0b7e820811984c6a2abc9a&t=5 HTTP/1.1" 200 66 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:53+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:46:52 +0000] "POST /e/s?r=9a55d3844f0b7e820811984c6a2abc9a&t=6 HTTP/1.1" 200 269 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:53+0200 [TimeoutHTTPChannel,9,134.93.143.194] ['#babay']
+2012-06-24 11:46:53+0200 [TimeoutHTTPChannel,9,134.93.143.194] (u'PRIVMSG', u'w00d', u'#babay', u':test')
+2012-06-24 11:46:53+0200 [TimeoutHTTPChannel,9,134.93.143.194] (u'PRIVMSG', u'w00d', u'#babay', u':test')
+2012-06-24 11:46:53+0200 [TimeoutHTTPChannel,9,134.93.143.194] (u'PRIVMSG', u'w00d', u'#babay', u':test')
+2012-06-24 11:46:53+0200 [TimeoutHTTPChannel,9,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:52 +0000] "POST /e/h?r=9a55d3844f0b7e820811984c6a2abc9a&t=7 HTTP/1.1" 200 127 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:59+0200 [TimeoutHTTPChannel,9,134.93.143.194] QUIT :
+2012-06-24 11:46:59+0200 [TimeoutHTTPChannel,9,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:46:58 +0000] "POST /e/p?r=9a55d3844f0b7e820811984c6a2abc9a&t=9 HTTP/1.1" 200 11 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:59+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:46:58 +0000] "POST /e/s?r=9a55d3844f0b7e820811984c6a2abc9a&t=8 HTTP/1.1" 200 160 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:46:59+0200 [QWebIRCClient,client] Stopping factory <qwebirc.ircclient.QWebIRCFactory instance at 0x35c1680>
+2012-06-24 11:47:00+0200 [-] 134.93.143.194 - - [24/Jun/2012:09:46:59 +0000] "POST /e/s?r=9a55d3844f0b7e820811984c6a2abc9a&t=10 HTTP/1.1" 200 49 "http://ex.wargame.vn:9090/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"
+2012-06-24 11:47:03+0200 [TimeoutHTTPChannel,8,134.93.143.194] 134.93.143.194 - - [24/Jun/2012:09:47:02 +0000] "GET /e/h HTTP/1.1" 200 2493 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_4) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5"

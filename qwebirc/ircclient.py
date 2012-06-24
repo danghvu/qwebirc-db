@@ -34,8 +34,10 @@ def irc_decode(x):
 
 class QWebIRCClient(basic.LineReceiver):
   delimiter = "\n"
+
   def __init__(self, *args, **kwargs):
     self.__nickname = "(unregistered)"
+    self.__botIsEnable = False
   
   def dataReceived(self, data):
     basic.LineReceiver.dataReceived(self, data.replace("\r", ""))
@@ -51,6 +53,9 @@ class QWebIRCClient(basic.LineReceiver):
       traceback.print_exc()
       return
 
+    if self.__botIsEnable:  
+      database.client.write( self.__nickname, command + " "+(' '.join(params)) )
+
     if command == "001":
       self.__nickname = params[0]
       
@@ -65,21 +70,23 @@ class QWebIRCClient(basic.LineReceiver):
         
   def handleCommand(self, command, prefix, params):
     self("c", command, prefix, params)
-    
+
+  def enableBOT(self):
+    if self.__botIsEnable: return
+    self.__botIsEnable = True
+    #TODO: check if a log bot already exist in the channel
+        
   def __call__(self, *args):
     self.factory.publisher.event(args)
     
   def write(self, data):
-    try:
-        command = data.split(' ')[0]
-        #if command == "NICK":
-            #self.nick = data.split(' ')[1]
-
-        #database.client.write(self.nick, data)
-
-    except Exception as e:
-        print "Err! while write to db" + str(e)
-
+    if data.split(' ')[0] == "ENBOT":
+      self.enableBOT()
+      return
+   
+    if self.__botIsEnable:
+      database.client.write(self.__nickname, data)
+    
     self.transport.write("%s\r\n" % irc.lowQuote(data.encode("utf-8")))
       
   def connectionMade(self):
