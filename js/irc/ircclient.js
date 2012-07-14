@@ -426,7 +426,7 @@ qwebirc.irc.IRCClient = new Class({
   channelHistorymsg: function(user, channel, message, date) {
     var nick = user.hostToNick();
 
-    this.newChanLine(channel, "CHANMSG", user, {"m": message, "@": this.getNickStatus(channel, nick), "t": date}); 
+    this.newChanLine(channel, "CHANMSG", user, {"m": message, "@": this.getNickStatus(channel, nick), "time": date}); 
   }, 
   channelNotice: function(user, channel, message) {
     this.newChanLine(channel, "CHANNOTICE", user, {"m": message, "@": this.getNickStatus(channel, user.hostToNick())});

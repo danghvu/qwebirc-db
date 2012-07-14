@@ -124,8 +124,8 @@ qwebirc.ui.Window = new Class({
 
     //if time information is included in the new line (for history)
     var timestamp = null;
-    if (line && line["t"]) {
-        timestamp = "[" + line["t"] + "]";
+    if (line && line["time"]) {
+        timestamp = "[" + line["time"] + "]";
     } else {
         //otherwise time will be current time
         timestamp = qwebirc.irc.IRCTimestamp(new Date()); 
