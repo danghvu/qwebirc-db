@@ -421,6 +421,13 @@ qwebirc.irc.IRCClient = new Class({
     this.tracker.updateLastSpoke(nick, channel, new Date().getTime()); 
     this.newChanLine(channel, "CHANMSG", user, {"m": message, "@": this.getNickStatus(channel, nick)});
   },
+  //similar to channelPrivmsg to display channel message but include "t" time
+  //in extra data
+  channelHistorymsg: function(user, channel, message, date) {
+    var nick = user.hostToNick();
+
+    this.newChanLine(channel, "CHANMSG", user, {"m": message, "@": this.getNickStatus(channel, nick), "t": date}); 
+  }, 
   channelNotice: function(user, channel, message) {
     this.newChanLine(channel, "CHANNOTICE", user, {"m": message, "@": this.getNickStatus(channel, user.hostToNick())});
   },

@@ -270,13 +270,12 @@ class AJAXEngine(resource.Resource):
   def history(self, request):
     session = self.getSession(request)
     channel = request.args.get("channel")
-    print channel
     records = database.client.readMsg(channel[0])
     messages = []
     for r in records:
         print r
-        msg = ["c"] + [r[0]] + [r[1]] 
-        msg.append([r[2], r[3]])
+        msg = ["c"] + ["HISTORY"] + [r[1]] 
+        msg.append([r[2], r[4], r[3]])
         messages.append(msg)
     return json.dumps(messages)
 

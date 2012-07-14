@@ -257,6 +257,17 @@ qwebirc.irc.BaseIRCClient = new Class({
     
     return true;
   },
+  //handle HISTORY command
+  irc_HISTORY: function(prefix, params) {
+    var user = prefix; 
+    var target = params[0];
+    var date = params[1];
+    var message = params.indexFromEnd(-1);
+        
+    this.channelHistorymsg(user, target, message, date); 
+
+    return true;
+  },
   irc_NOTICE: function(prefix, params) {
     var user = prefix;
     var target = params[0];

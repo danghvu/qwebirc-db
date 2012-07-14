@@ -25,7 +25,7 @@ class DB:
 
     def readMsg(self, channel):
         channel = channel.strip()
-        query = "SELECT command, user, target, message FROM msg WHERE command = 'PRIVMSG' AND target = '{0}' ORDER BY time ASC".format(channel)
+        query = "SELECT command, user, target, message, time FROM msg WHERE command = 'PRIVMSG' AND target = '{0}' ORDER BY time ASC".format(channel)
         return self.cursor.execute(query).fetchall()
 
     def write(self, user, data):
