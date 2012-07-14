@@ -57,7 +57,18 @@ String.prototype.hostToHost = function() {
 }
 
 qwebirc.irc.IRCTimestamp = function(d) {
-  return "[" + qwebirc.util.pad(d.getHours()) + ":" + qwebirc.util.pad(d.getMinutes()) + "]";
+  var currentDate = new Date();
+  var timestampDisplay = "";
+  //display year if year is different
+  if (d.getYear() != currentDate.getYear())
+      timestampDisplay = qwebirc.util.pad(d.getYear()) + "-" + qwebirc.util.pad(d.getMonth()) + "-" + qwebirc.util.pad(d.getDate()) + " ";
+  //display month and date if they are different
+  else if (d.getMonth() != currentDate.getMonth() || d.getDate() != currentDate.getDate()) 
+      timestampDisplay = qwebirc.util.pad(d.getMonth()) + "-" + qwebirc.util.pad(d.getDate()) + " ";
+
+  timestampDisplay = timestampDisplay + qwebirc.util.pad(d.getHours()) + ":" + qwebirc.util.pad(d.getMinutes());
+  timestampDisplay = "[" + timestampDisplay + "]";
+  return timestampDisplay; 
 }
 
 qwebirc.irc.IRCDate = function(d) {

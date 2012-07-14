@@ -123,14 +123,16 @@ qwebirc.ui.Window = new Class({
     }
 
     //if time information is included in the new line (for history)
-    var timestamp = null;
+    var date = null;
     if (line && line["time"]) {
-        timestamp = "[" + line["time"] + "]";
+        //timestamp = "[" + line["time"] + "]";
+        date = qwebirc.util.parseGMTTimestamp(line["time"]);
     } else {
         //otherwise time will be current time
-        timestamp = qwebirc.irc.IRCTimestamp(new Date()); 
+        date = new Date();
     }
 
+    timestamp = qwebirc.irc.IRCTimestamp(date); 
     if(!this.active && (hilight != qwebirc.ui.HILIGHT_NONE))
       this.setHilighted(hilight);
 

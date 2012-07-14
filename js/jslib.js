@@ -378,3 +378,8 @@ qwebirc.util.generateID_ID = 0;
 qwebirc.util.generateID = function() {
   return "qqa-" + qwebirc.util.generateID_ID++;
 }
+
+qwebirc.util.parseGMTTimestamp = function(timestamp) {
+   var timestampWithZone = timestamp + " GMT";
+   return new Date(timestampWithZone); 
+}
